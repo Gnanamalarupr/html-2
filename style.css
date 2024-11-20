@@ -1,0 +1,270 @@
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-image: url('https://vistaramagazine.com/wp-content/uploads/2021/02/01-6-1024x576.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+
+header {
+    background:grey;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+.nav-links a:hover {
+    color: aquamarine; /* Change the color when hovered */
+}
+
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.cta {
+    background: white;
+    color:grey;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.cta:hover {
+    background:grey;
+}
+
+
+.hero {
+    
+    color:white;
+    text-align: center;
+    padding: 5rem 2rem;
+    
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background: grey;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background:grey;
+}
+
+
+.destinations {
+    padding: 12rem;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+
+.destination-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.card h3 {
+    margin: 0.5rem 0;
+}
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.locations {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.locations h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.locations p {
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.location-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.location-item {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.location-item h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #4CAF50;
+}
+
+.location-item iframe {
+    border-radius: 8px;
+    width: 100%;
+    height: 300px;
+
+}
+    #about {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 2rem;
+        color: white;
+    }
+    /* Contact Section Styles */
+#contact {
+    padding: 2rem;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+#contact p {
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.contact-form {
+    background: white;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form .btn {
+    background: grey;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.contact-form .btn:hover {
+    background: aquamarine;
+    color: grey;
+}
+
+.map iframe {
+    border: 0;
+    border-radius: 8px;
+    width: 45%;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+    
